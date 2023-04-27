@@ -1,0 +1,54 @@
+.product {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto; /* Toegevoegd om het product te centreren */
+    font-family: Arial, sans-serif; /* Aangepast lettertype */
+    background-image: linear-gradient(to bottom, #f3e5ff, #d5ffe2); /* Gradiënt toegevoegd aan achtergrond */
+    
+    animation: fade-in 1s ease-in; /* Animatie voor fade-in effect */
+  }
+  
+  /* Style voor de afbeelding */
+  .product img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Style voor de panel div */
+  .product .panel {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  /* Style voor de merk en type headers */
+  .product h5 {
+    margin: 0;
+    font-size: 18px; /* Aangepaste font-size */
+    color: #333; /* Aangepaste tekstkleur */
+  }
+  
+  /* Style voor de prijs en bouwjaar headers */
+  .product h6.subheader {
+    margin: 5px 0;
+    font-size: 14px; /* Aangepaste font-size */
+    color: #777; /* Aangepaste tekstkleur */
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

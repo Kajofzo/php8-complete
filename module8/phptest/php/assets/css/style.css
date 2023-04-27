@@ -1,0 +1,85 @@
+/* Reset standaard marges en paddings */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basisstijlen voor de webshop */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+.producten {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  aspect-ratio: 3/ 2;
+}
+
+.subheader {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.prijs {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
